@@ -1,3 +1,4 @@
+// HOOKS
 import React, { useState, useEffect } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
@@ -15,9 +16,9 @@ function App() {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then(usersi => setRobots(usersi));
-    });
-    const onSearchChange = (event) => {setSearchfield(event.target.value)}
+    },[]);
 
+    const onSearchChange = (event) => {setSearchfield(event.target.value)}
     const filteredrobors = robots.filter(robot => {
         return robot.name.toLowerCase().includes(searchfield.toLowerCase())
     })
