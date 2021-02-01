@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/catFriends/static/css/main.af89753d.chunk.css",
-    "main.js": "/catFriends/static/js/main.f7d425bf.chunk.js",
-    "main.js.map": "/catFriends/static/js/main.f7d425bf.chunk.js.map",
+    "main.css": "/catFriends/static/css/main.bafbc693.chunk.css",
+    "main.js": "/catFriends/static/js/main.e00507a9.chunk.js",
+    "main.js.map": "/catFriends/static/js/main.e00507a9.chunk.js.map",
     "runtime-main.js": "/catFriends/static/js/runtime-main.f7507915.js",
     "runtime-main.js.map": "/catFriends/static/js/runtime-main.f7507915.js.map",
     "static/css/2.b97b5188.chunk.css": "/catFriends/static/css/2.b97b5188.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.5a04137a.chunk.js.map": "/catFriends/static/js/2.5a04137a.chunk.js.map",
     "index.html": "/catFriends/index.html",
     "static/css/2.b97b5188.chunk.css.map": "/catFriends/static/css/2.b97b5188.chunk.css.map",
-    "static/css/main.af89753d.chunk.css.map": "/catFriends/static/css/main.af89753d.chunk.css.map",
+    "static/css/main.bafbc693.chunk.css.map": "/catFriends/static/css/main.bafbc693.chunk.css.map",
     "static/js/2.5a04137a.chunk.js.LICENSE.txt": "/catFriends/static/js/2.5a04137a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f7507915.js",
     "static/css/2.b97b5188.chunk.css",
     "static/js/2.5a04137a.chunk.js",
-    "static/css/main.af89753d.chunk.css",
-    "static/js/main.f7d425bf.chunk.js"
+    "static/css/main.bafbc693.chunk.css",
+    "static/js/main.e00507a9.chunk.js"
   ]
 }
