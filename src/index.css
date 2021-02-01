@@ -18,3 +18,18 @@ button {
   background-color: lightblue;
   padding: 1rem;
 }
+@media (max-width: 430px) {
+  #top {
+    padding: 4px;
+    font-size: 0.8rem;
+  }
+
+}
+  @media (min-width: 430px) {
+    #top {
+      display:flex;
+      padding: 4px;
+      justify-content: center;
+      
+    }
+    }
