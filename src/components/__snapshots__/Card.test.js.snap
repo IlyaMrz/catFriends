@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Card component 1`] = `
+<div
+  className="bg-light-green tc dib br3 pa3 ma2 grow bw2 shadow-3"
+>
+  <img
+    alt="123"
+    src="https://robohash.org/set_set4/NaN?size=200x200"
+  />
+  <div>
+    <h2 />
+    <p />
+    <p>
+      City: 
+    </p>
+  </div>
+  <p>
+    avatar id - 
+    NaN
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    increase
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    decrease
+  </button>
+</div>
+`;

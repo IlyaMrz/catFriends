@@ -1,4 +1,5 @@
 import React from 'react';
+import CounterButton from '../components/CounterButton';
 
 const SearchBox = ({ searchChange }) => {
     return (
@@ -9,6 +10,9 @@ const SearchBox = ({ searchChange }) => {
                 placeholder='search cats'
                 onChange={searchChange}
             />
+            <div className="ml3">
+            <CounterButton />
+            </div>
         </div>
     );
 }

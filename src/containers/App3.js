@@ -1,13 +1,11 @@
 //REDUX
+//app component moved to MainPage component for better testing
 
 import React, { Component} from 'react';
 import { connect } from 'react-redux';
-import CardList from '../components/CardList';
-import SearchBox from '../components/SearchBox';
-import Scroll from '../components/Scroll';
-import ErrorBoundry from '../components/ErrorBoundry';
 // import { robots } from './robots';
 import {requestRobots, setSearchField} from '../actions.js';
+import MainPage from '../components/MainPage';
 
 
 const mapStateToProps = state =>{ 
@@ -27,28 +25,8 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 class App extends Component {
-    componentDidMount() {
-        this.props.onRequestRobots()
-    }
-
     render() {
-        const {searchfield,onSearchChange,robots,isPending} = this.props;
-        const filteredrobors = robots.filter(robot => {
-            return robot.name.toLowerCase().includes(searchfield.toLowerCase())
-        })
-        return isPending ?
-            <h1>loading</h1> :
-            <div className='tc'>
-                <SearchBox searchChange={onSearchChange} />
-                <Scroll>
-                    <ErrorBoundry>
-                        <CardList robots={filteredrobors} />
-                    </ErrorBoundry>
-                </Scroll>
-
-            </div>
-
-
+        return <MainPage { ...this.props }/>
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(App);
